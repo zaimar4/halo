@@ -49,13 +49,13 @@
       <h3>Bangun Ruang</h3>
       <img src="asset/bangun-ruang.jpg" alt="bangun-ruang">
       <br>
-      <button onclick="pilih('ruang')">Hitung!</button>
+      <button onclick="pilih('ruang');document.getElementById('menu-ruang').scrollIntoView({behavior: 'smooth'});">Hitung!</button>
     </div>
     <div id="datar" data-aos="fade-up-left" data-aos-duration="1200">
       <h3>Bangun Datar</h3>
       <img src="asset/bangun-datar.jpg" alt="bangun-datar">
       <br>
-      <button onclick="pilih('datar')">Hitung!</button>
+      <button onclick="pilih('datar');document.getElementById('menu-datar').scrollIntoView({behavior: 'smooth'});">Hitung!</button>
     </div>
   </div>
   <div id="menu">
@@ -134,4 +134,5 @@
   </script>
 </body>
 </html>
+
 
