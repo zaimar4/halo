@@ -270,4 +270,39 @@ width: 180px;
   justify-content: center;
   justify-self: center;
   align-items: center;
+  text-align: center;
+  display:flex;
+  padding: 10px;
+  margin: 10px;
 } 
+#menu #kubus{
+  border: none;
+  justify-content: center;
+  padding: 5px;
+  width:200px ;
+   background: linear-gradient(145deg, #ffffff, #d6ebff); 
+  border-radius: 7px;  box-shadow: 0 6px 15px rgba(0, 123, 255, 0.2);
+  box-shadow: 2px 2px 5px rgb(113, 113, 113);
+}
+#menu img{
+  width:200px;
+  object-fit: cover;
+}
+#menu button{
+  padding: 5px 10px;
+  margin: 5px;
+  border: none;
+  border-radius: 7px;
+  color: white;
+  background-color: #0097e6;
+  box-shadow:  2px 2px 5px rgb(113, 113, 113);
+}
+#menu button:hover{
+  box-shadow: 2px 3px 10px gray;
+  transform: translateY(-5px);
+}
+#menu h4{
+  color: #0059b3;
+  margin-top: 5px;
+}
+
