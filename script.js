@@ -21,7 +21,7 @@ function sembunyikanSemuaTabel() {
 
 // === KUBUS ===
 function kubus(jenis) {
-  sembunyikanSemuaTabel(); // <--- sembunyikan semua tabel dulu
+  sembunyikanSemuaTabel();
 
   if (jenis === 'volume') {
     document.getElementById('table-volume-kubus').style.display = "block";
@@ -48,7 +48,6 @@ function hitungkubus(jenis) {
       <p>Volume Kubus: <strong>${hasil.toLocaleString()} ${satuan}</strong></p>
       <p>≈ <strong>${hasilLiter.toLocaleString()} liter</strong></p>
     `;
-
   } else if (jenis === 'luas_permukaan') {
     const sisi = parseFloat(document.getElementById('sisi-luas').value);
     const satuan = document.getElementById('satuan-luas').value;
@@ -166,4 +165,3 @@ function hitungPersegi(jenis) {
     `;
   }
 }
-
