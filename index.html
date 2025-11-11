@@ -55,7 +55,7 @@
       <h3>Bangun Datar</h3>
       <img src="asset/bangun-datar.jpg" alt="bangun-datar">
       <br>
-      <button onclick="pilih('datar');document.getElementById('menu-datar').scrollIntoView({behavior: 'smooth'});">Hitung!</button>
+      <button onclick="pilih('datar');document.getElementById('menu-datar').scrollIntoView({behavior: 'smooth'});">Hitung!</button> 
     </div>
   </div>
   <div id="menu">
@@ -63,7 +63,7 @@
   <div id="menu-ruang" style="display: none;">
     <div id="kubus">
       <h4>Kubus</h4>
-      <img src="kubus.jpg" alt="kubus">
+      <img src="asset/kubus.png" alt="kubus">
       <button onclick="kubus('volume')">Hitung Volume</button>
       <button onclick="kubus('luas_permukaan')">Hitung Luas Permukaan</button>
     </div>
@@ -81,8 +81,8 @@
     <div id="persegi">
       <h4>Persegi</h4>
       <img src="persegi.jpg" alt="persegi">
-      <button onclick="kubus('luas')">Hitung Luas</button>
-      <button onclick="kubus('sisi')">Hitung Sisi</button>
+      <button onclick="persegi('luas')">Hitung Luas</button>
+      <button onclick="persegi('keliling')">Hitung Keliling</button>
     </div>
   </div>
   </div>
@@ -112,7 +112,7 @@
       <button onclick="hitungkubus('luas_permukaan')">Hitung</button>
       <p id="luas-kubus" style="display: none;"></p>
     </div>
-    <!-- volume balok -->
+  <!-- volume balok -->
 <div id="table-volume-balok" style="display:none;">
   <h4>Hitung Volume Balok</h4>
   <input type="number" id="panjang" placeholder="Masukkan panjang">
@@ -166,7 +166,6 @@
     </div>
   </div>
 
-
   <script src="script.js"></script>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
   <script>
@@ -174,6 +173,3 @@
   </script>
 </body>
 </html>
-
-
-
