@@ -448,14 +448,15 @@ width: 180px;
   }
 
   /*ini bagian kontak*/
-}.container {
-            max-width:1300px;
+}
+        .container {
+            max-width: 1200px;
             margin: 0 auto;
         }
 
         .header {
             text-align: center;
-            color: rgb(43, 117, 151);
+            color: white;
             margin-bottom: 50px;
         }
 
@@ -484,11 +485,7 @@ width: 180px;
             box-shadow: 0 10px 30px rgba(0,0,0,0.2);
         }
 
-        .contact-info h2 {
-            color: #667eea;
-            margin-bottom: 25px;
-            font-size: 1.8em;
-        }
+
 
         .info-item {
             display: flex;
@@ -672,4 +669,3 @@ width: 180px;
                 padding: 15px 20px;
             }
         }
-
