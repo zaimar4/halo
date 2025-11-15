@@ -308,8 +308,8 @@ width: 100px;
 /* Gambar bangun */
 #menu-ruang img,
 #menu-datar img {
-  width: 100px;
-  height:100px;
+  width: 200px;
+  height:200px;
   object-fit: contain;
   margin: 10px 0;
 }
@@ -669,5 +669,6 @@ width: 100px;
                 padding: 15px 20px;
             }
         }
+
 
 
